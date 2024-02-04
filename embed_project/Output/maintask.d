@@ -1,0 +1,10 @@
+..\..\output\maintask.o: ..\..\STemWin_Task\MainTask.c
+..\..\output\maintask.o: ..\..\STemWin_Task\MainTask.h
+..\..\output\maintask.o: ..\..\STemWin\inc\GUI.h
+..\..\output\maintask.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\maintask.o: ..\..\STemWin\inc\GUI_ConfDefaults.h
+..\..\output\maintask.o: ..\..\STemWin\Config\GUIConf.h
+..\..\output\maintask.o: ..\..\STemWin\inc\GUI_Type.h
+..\..\output\maintask.o: ..\..\STemWin\inc\LCD.h
+..\..\output\maintask.o: ..\..\STemWin\inc\Global.h
+..\..\output\maintask.o: ..\..\STemWin\inc\GUI_Version.h
