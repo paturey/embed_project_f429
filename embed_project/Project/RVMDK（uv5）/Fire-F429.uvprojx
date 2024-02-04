@@ -669,6 +669,16 @@
               <FileType>5</FileType>
               <FilePath>..\..\User\FreeRTOSConfig.h</FilePath>
             </File>
+            <File>
+              <FileName>RFID_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\RFID_task.c</FilePath>
+            </File>
+            <File>
+              <FileName>WIDGET_ButtonSimple.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\WIDGET_ButtonSimple.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -688,11 +698,6 @@
               <FileName>bsp_beep.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\beep\bsp_beep.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_key.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\User\key\bsp_key.c</FilePath>
             </File>
             <File>
               <FileName>bsp_lcd.c</FileName>
@@ -718,6 +723,16 @@
               <FileName>bsp_touchpad.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\TouchPad\bsp_touchpad.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_MFRC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\MFRC\bsp_MFRC.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\key\bsp_exti.c</FilePath>
             </File>
           </Files>
         </Group>

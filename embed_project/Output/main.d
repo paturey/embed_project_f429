@@ -1,5 +1,6 @@
 ..\..\output\main.o: ..\..\User\main.c
 ..\..\output\main.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\main.o: ..\..\User\main.h
 ..\..\output\main.o: ..\..\FreeRTOS\include\FreeRTOS.h
 ..\..\output\main.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\output\main.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
@@ -57,7 +58,7 @@
 ..\..\output\main.o: ..\..\User\./lcd/bsp_lcd.h
 ..\..\output\main.o: ..\..\User\./touch/bsp_i2c_touch.h
 ..\..\output\main.o: ..\..\User\./touch/gt9xx.h
-..\..\output\main.o: ..\..\User\./key/bsp_key.h
+..\..\output\main.o: ..\..\User\./key/bsp_exti.h
 ..\..\output\main.o: ..\..\User\./sdram/bsp_sdram.h
 ..\..\output\main.o: ..\..\STemWin\inc\GUI.h
 ..\..\output\main.o: ..\..\STemWin\inc\GUI_ConfDefaults.h
@@ -109,3 +110,8 @@
 ..\..\output\main.o: ..\..\FATFS\integer.h
 ..\..\output\main.o: ..\..\FATFS\ffconf.h
 ..\..\output\main.o: ..\..\FATFS\diskio.h
+..\..\output\main.o: ..\..\User\WIDGET_ButtonSimple.h
+..\..\output\main.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\main.o: ..\..\User\RFID_task.h
+..\..\output\main.o: ..\..\User\./MFRC/bsp_MFRC.h
+..\..\output\main.o: ..\..\User\./MFRC/RC522.h

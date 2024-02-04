@@ -78,8 +78,8 @@ extern const LCD_PARAM_TypeDef lcd_param[];
 
 
 /* LCD Size (Width and Height) */
-#define  LCD_PIXEL_WIDTH        ((uint16_t)800)
-#define  LCD_PIXEL_HEIGHT       ((uint16_t)480)
+#define  LCD_PIXEL_WIDTH        ((uint16_t)480)
+#define  LCD_PIXEL_HEIGHT       ((uint16_t)272)
 
 #define  LCD_FRAME_BUFFER       ((uint32_t)0xD0000000)
 
