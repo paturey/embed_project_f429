@@ -44,6 +44,8 @@
 "..\..\output\stm32f4xx_it.o"
 "..\..\output\rfid_task.o"
 "..\..\output\widget_buttonsimple.o"
+"..\..\output\com_jetson.o"
+"..\..\output\info_process.o"
 "..\..\output\bsp_led.o"
 "..\..\output\bsp_debug_usart.o"
 "..\..\output\bsp_beep.o"

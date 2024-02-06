@@ -110,7 +110,6 @@
 ..\..\output\widget_buttonsimple.o: ..\..\STemWin\inc\SPINBOX.h
 ..\..\output\widget_buttonsimple.o: ..\..\STemWin\inc\SWIPELIST.h
 ..\..\output\widget_buttonsimple.o: ..\..\STemWin\inc\KNOB.h
-..\..\output\widget_buttonsimple.o: ..\..\STemWin_Task\MainTask.h
 ..\..\output\widget_buttonsimple.o: ..\..\FATFS\ff.h
 ..\..\output\widget_buttonsimple.o: ..\..\FATFS\integer.h
 ..\..\output\widget_buttonsimple.o: ..\..\FATFS\ffconf.h
@@ -119,3 +118,6 @@
 ..\..\output\widget_buttonsimple.o: ..\..\User\RFID_task.h
 ..\..\output\widget_buttonsimple.o: ..\..\User\./MFRC/bsp_MFRC.h
 ..\..\output\widget_buttonsimple.o: ..\..\User\./MFRC/RC522.h
+..\..\output\widget_buttonsimple.o: ..\..\User\com_jetson.h
+..\..\output\widget_buttonsimple.o: ..\..\User\info_process.h
+..\..\output\widget_buttonsimple.o: ..\..\User\com_jetson.h

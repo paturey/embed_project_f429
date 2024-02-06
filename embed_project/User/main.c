@@ -29,6 +29,9 @@ TaskHandle_t    Touch_Task_Handle = NULL;
 TaskHandle_t    DemoRedraw = NULL;
 TaskHandle_t    FatFs_test_Handle = NULL;
 TaskHandle_t    RFID_Handle = NULL;
+TaskHandle_t    COM_JETSON_Handle = NULL;
+TaskHandle_t    INFO_PROCESS_Handle = NULL;
+
 
 
 uint8_t         log_in_mode = 0x00;
@@ -79,13 +82,13 @@ static void AppTaskCreate(void)
     BaseType_t xReturn = pdPASS;/* 定义一个创建信息返回值，默认为pdPASS */
 	
     taskENTER_CRITICAL();//进入临界区
-	
-    xReturn = xTaskCreate((TaskFunction_t)Touch_Task,/* 任务入口函数 */
-                          (const char*      )"Touch_Task",/* 任务名称 */
-                          (uint16_t         )256,     /* 任务栈大小 */
-                          (void*            )NULL,    /* 任务入口函数参数 */
-                          (UBaseType_t      )4,       /* 任务的优先级 */
-                          (TaskHandle_t     )&Touch_Task_Handle);/* 任务控制块指针 */
+    /*
+    xReturn = xTaskCreate((TaskFunction_t)Touch_Task,
+                          (const char*      )"Touch_Task",
+                          (uint16_t         )256,     
+                          (void*            )NULL,    
+                          (UBaseType_t      )4,       
+                          (TaskHandle_t     )&Touch_Task_Handle);
     if(pdPASS == xReturn)
         printf("创建Touch_Task任务成功！\r\n");
 		
@@ -95,6 +98,23 @@ static void AppTaskCreate(void)
                           (void*            )NULL,    
                           (UBaseType_t      )3,       
                           (TaskHandle_t*     )&DemoRedraw);	
+    */
+    xReturn = xTaskCreate((TaskFunction_t)com_jetson,
+                          (const char*      )"com_jetson",
+                          (uint16_t         )2048,     
+                          (void*            )NULL,    
+                          (UBaseType_t      )3,       
+                          (TaskHandle_t*     )&COM_JETSON_Handle);
+													
+    xReturn = xTaskCreate((TaskFunction_t)info_process,
+                          (const char*      )"info_process",
+                          (uint16_t         )2048,     
+                          (void*            )NULL,    
+                          (UBaseType_t      )2,       
+                          (TaskHandle_t*     )&INFO_PROCESS_Handle);
+    
+
+													
     if(pdPASS == xReturn) { 
         printf("创建GUI_Task任务成功！\r\n");
 		}
@@ -121,24 +141,6 @@ static void Touch_Task(void* parameter)
 	}
 }
 
-/**
-  * @brief GUI任务主体
-  * @note 无
-  * @param 无
-  * @retval 无
-  */
-static void GUI_Task(void* parameter)
-{
-	/* 初始化GUI */
-	GUI_Init();
-	/* 开启三缓冲 */
-	WM_MULTIBUF_Enable(1);
-	
-	while(1)
-	{
-		MainTask();
-	}
-}
 
 /**
   * @brief 板级外设初始化
@@ -160,8 +162,8 @@ static void BSP_Init(void)
 	 */
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
 	
-	/* 串口初始化	*/
 	Debug_USART_Config();
+	
 	/* 触摸屏初始化 */
 	GTP_Init_Panel();	
 	/* SDRAM初始化 */
@@ -175,7 +177,7 @@ static void BSP_Init(void)
 	/* 开启三缓冲 */
 	WM_MULTIBUF_Enable(1);
 	
-	
+  USART_DMA_Config();
 //  /* 禁用WIFI模块 */
 //  AP6181_PDN_INIT();
 //  /* 挂载文件系统，挂载时会对SD卡初始化 */

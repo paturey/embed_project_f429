@@ -1,14 +1,14 @@
 /**
   ******************************************************************************
-  * @file    bsp_debug_usart.c
+  * @file    bsp_usart_dma.c
   * @author  fire
   * @version V1.0
   * @date    2015-xx-xx
-  * @brief   重现c库printf函数到usart端口
+  * @brief   重现c库printf函数到usart端口,使用DMA模式接收数据
   ******************************************************************************
   * @attention
   *
-  * 实验平台:秉火  STM32 F429 开发板  
+  * 实验平台:野火  STM32 F429 开发板  
   * 论坛    :http://www.firebbs.cn
   * 淘宝    :https://fire-stm32.taobao.com
   *
@@ -17,16 +17,20 @@
   
 #include "./usart/bsp_debug_usart.h"
 
+uint8_t ReceiveBuff[RECEIVEBUFF_SIZE];
+
+
+
  /**
-  * @brief  USART1 GPIO 配置,工作模式配置。115200 8-N-1
+  * @brief  USART GPIO 配置,工作模式配置。115200 8-N-1
   * @param  无
   * @retval 无
   */
 void Debug_USART_Config(void)
 {
   GPIO_InitTypeDef GPIO_InitStructure;
-  USART_InitTypeDef USART_InitStructure;
-		
+  USART_InitTypeDef USART_InitStructure;	
+	
   RCC_AHB1PeriphClockCmd( DEBUG_USART_RX_GPIO_CLK|DEBUG_USART_TX_GPIO_CLK, ENABLE);
 
   /* Enable UART clock */
@@ -37,6 +41,7 @@ void Debug_USART_Config(void)
 
   /* Connect PXx to USARTx_Rx*/
   GPIO_PinAFConfig(DEBUG_USART_TX_GPIO_PORT,DEBUG_USART_TX_SOURCE,DEBUG_USART_TX_AF);
+	
 
   /* Configure USART Tx as alternate function  */
   GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
@@ -52,7 +57,7 @@ void Debug_USART_Config(void)
   GPIO_InitStructure.GPIO_Pin = DEBUG_USART_RX_PIN;
   GPIO_Init(DEBUG_USART_RX_GPIO_PORT, &GPIO_InitStructure);
 			
-  /* USART1 mode config */
+  /* USART mode config */
   USART_InitStructure.USART_BaudRate = DEBUG_USART_BAUDRATE;
   USART_InitStructure.USART_WordLength = USART_WordLength_8b;
   USART_InitStructure.USART_StopBits = USART_StopBits_1;
@@ -60,9 +65,9 @@ void Debug_USART_Config(void)
   USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
   USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
   USART_Init(DEBUG_USART, &USART_InitStructure); 
+  
+  
   USART_Cmd(DEBUG_USART, ENABLE);
-	
-	USART_ClearFlag(DEBUG_USART, USART_FLAG_TC);
 }
 
 ///重定向c库函数printf到USART1
@@ -85,4 +90,91 @@ int fgetc(FILE *f)
 
 		return (int)USART_ReceiveData(DEBUG_USART);
 }
+
+/*****************  发送一个字节 **********************/
+void Usart_SendByte( USART_TypeDef * pUSARTx, uint8_t ch)
+{
+	/* 发送一个字节数据到USART */
+	USART_SendData(pUSARTx,ch);
+		
+	/* 等待发送数据寄存器为空 */
+	while (USART_GetFlagStatus(pUSARTx, USART_FLAG_TXE) == RESET);	
+}
+
+/****************** 发送8位的数组 ************************/
+void Usart_SendArray( USART_TypeDef * pUSARTx, uint8_t *array, uint16_t num)
+{
+  uint8_t i;
+	
+	for(i=0; i<num; i++)
+  {
+	    /* 发送一个字节数据到USART */
+	    Usart_SendByte(pUSARTx,array[i]);	
+  
+  }
+	/* 等待发送完成 */
+	while(USART_GetFlagStatus(pUSARTx,USART_FLAG_TC)==RESET);
+}
+
+/**
+  * @brief  USART1 TX DMA 配置，内存到外设(USART1->DR)
+  * @param  无
+  * @retval 无
+  */
+void USART_DMA_Config(void)
+{
+		DMA_InitTypeDef DMA_InitStructure;
+
+		/*开启DMA时钟*/
+		RCC_AHB1PeriphClockCmd(DEBUG_USART_DMA_CLK, ENABLE);
+		
+		/* 复位初始化DMA数据流 */
+		DMA_DeInit(DEBUG_USART_DMA_STREAM);
+
+		/* 确保DMA数据流复位完成 */
+		while (DMA_GetCmdStatus(DEBUG_USART_DMA_STREAM) != DISABLE)  {
+		}
+
+		/*usart1 rx对应dma2，通道4，数据流2*/	
+		DMA_InitStructure.DMA_Channel = DEBUG_USART_DMA_CHANNEL;  
+		/*设置DMA源：串口数据寄存器地址*/
+		DMA_InitStructure.DMA_PeripheralBaseAddr = DEBUG_USART_DR_BASE;	 
+		/*内存地址(要传输的变量的指针)*/
+		DMA_InitStructure.DMA_Memory0BaseAddr = (u32)ReceiveBuff;
+		/*方向：从内存到外设*/		
+		DMA_InitStructure.DMA_DIR = DMA_DIR_PeripheralToMemory;	
+		/*传输大小DMA_BufferSize=RECEIVEBUFF_SIZE*/	
+		DMA_InitStructure.DMA_BufferSize = RECEIVEBUFF_SIZE;
+		/*外设地址不增*/	    
+		DMA_InitStructure.DMA_PeripheralInc = DMA_PeripheralInc_Disable; 
+		/*内存地址自增*/
+		DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;	
+		/*外设数据单位*/	
+		DMA_InitStructure.DMA_PeripheralDataSize = DMA_PeripheralDataSize_Byte;
+		/*内存数据单位 8bit*/
+		DMA_InitStructure.DMA_MemoryDataSize = DMA_MemoryDataSize_Byte;	
+		/*DMA模式：不断循环*/
+		DMA_InitStructure.DMA_Mode = DMA_Mode_Circular;	 
+		/*优先级：中*/	
+		DMA_InitStructure.DMA_Priority = DMA_Priority_Medium;
+    /* 禁用FIFO模式 */
+    DMA_InitStructure.DMA_FIFOMode = DMA_FIFOMode_Disable;
+    DMA_InitStructure.DMA_FIFOThreshold = DMA_FIFOThreshold_Full;
+    /* 单次模式 */
+    DMA_InitStructure.DMA_MemoryBurst = DMA_MemoryBurst_Single;
+    /* 单次模式 */
+    DMA_InitStructure.DMA_PeripheralBurst = DMA_PeripheralBurst_Single;	
+    /*配置DMA2的数据流2*/		   
+    DMA_Init(DEBUG_USART_DMA_STREAM, &DMA_InitStructure);
+  
+		/*使能DMA*/
+		DMA_Cmd(DEBUG_USART_DMA_STREAM, ENABLE);
+  
+  /* 等待DMA数据流有效*/
+  while(DMA_GetCmdStatus(DEBUG_USART_DMA_STREAM) != ENABLE)
+  {
+  }   
+}
+
+
 /*********************************************END OF FILE**********************/

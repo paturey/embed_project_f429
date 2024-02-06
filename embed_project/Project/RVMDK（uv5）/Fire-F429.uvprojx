@@ -679,6 +679,16 @@
               <FileType>1</FileType>
               <FilePath>..\..\User\WIDGET_ButtonSimple.c</FilePath>
             </File>
+            <File>
+              <FileName>com_jetson.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\com_jetson.c</FilePath>
+            </File>
+            <File>
+              <FileName>info_process.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\info_process.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -853,13 +863,6 @@
         </Group>
         <Group>
           <GroupName>DOC</GroupName>
-          <Files>
-            <File>
-              <FileName>必读说明.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\必读说明.txt</FilePath>
-            </File>
-          </Files>
         </Group>
       </Groups>
     </Target>

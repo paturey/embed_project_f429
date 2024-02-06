@@ -105,7 +105,6 @@
 ..\..\output\main.o: ..\..\STemWin\inc\TEXT.h
 ..\..\output\main.o: ..\..\STemWin\inc\TREEVIEW.h
 ..\..\output\main.o: ..\..\STemWin\inc\KNOB.h
-..\..\output\main.o: ..\..\STemWin_Task\MainTask.h
 ..\..\output\main.o: ..\..\FATFS\ff.h
 ..\..\output\main.o: ..\..\FATFS\integer.h
 ..\..\output\main.o: ..\..\FATFS\ffconf.h
@@ -115,3 +114,6 @@
 ..\..\output\main.o: ..\..\User\RFID_task.h
 ..\..\output\main.o: ..\..\User\./MFRC/bsp_MFRC.h
 ..\..\output\main.o: ..\..\User\./MFRC/RC522.h
+..\..\output\main.o: ..\..\User\com_jetson.h
+..\..\output\main.o: ..\..\User\info_process.h
+..\..\output\main.o: ..\..\User\com_jetson.h

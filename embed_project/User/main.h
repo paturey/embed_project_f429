@@ -14,12 +14,14 @@
 
 #include "GUI.h"
 #include "DIALOG.h"
-#include "MainTask.h"
 
 #include "ff.h"
 #include "diskio.h"
 #include "integer.h"
 
 #include "WIDGET_ButtonSimple.h"
+#include "com_jetson.h"
+#include "info_process.h"
+
 
 #define    _key      "1234567890"

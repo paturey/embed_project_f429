@@ -1526,9 +1526,9 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-F (..\..\User\main.c)(0x65BF5E99)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+F (..\..\User\main.c)(0x65C21F7A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\..\User\main.h)(0x65BF5255)
+I (..\..\User\main.h)(0x65C0ABEA)
 I (..\..\FreeRTOS\include\FreeRTOS.h)(0x635F8BA6)
 I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
 I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -1569,7 +1569,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\deprecated_definitions.h)(0x635F8BA6)
@@ -1578,7 +1578,7 @@ I (..\..\FreeRTOS\include\mpu_wrappers.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\task.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\list.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\semphr.h)(0x635F8BA6)
-I (..\..\FreeRTOS\include\queue.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\queue.h)(0x65C09C9F)
 I (..\..\User\./led/bsp_led.h)(0x635F8BA6)
 I (..\..\User\./beep/bsp_beep.h)(0x635F8BA6)
 I (..\..\User\./TouchPad/bsp_touchpad.h)(0x635F8BA6)
@@ -1630,7 +1630,6 @@ I (..\..\STemWin\inc\SWIPELIST.h)(0x635F8BA6)
 I (..\..\STemWin\inc\TEXT.h)(0x635F8BA6)
 I (..\..\STemWin\inc\TREEVIEW.h)(0x635F8BA6)
 I (..\..\STemWin\inc\KNOB.h)(0x635F8BA6)
-I (..\..\STemWin_Task\MainTask.h)(0x635F8BA6)
 I (..\..\FATFS\ff.h)(0x635F8BA6)
 I (..\..\FATFS\integer.h)(0x635F8BA6)
 I (..\..\FATFS\ffconf.h)(0x635F8BA6)
@@ -1640,6 +1639,8 @@ I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (..\..\User\RFID_task.h)(0x65BEFC36)
 I (..\..\User\./MFRC/bsp_MFRC.h)(0x65BF6CE5)
 I (..\..\User\./MFRC/RC522.h)(0x65B5D7CF)
+I (..\..\User\com_jetson.h)(0x65C22607)
+I (..\..\User\info_process.h)(0x65C0ABFA)
 F (..\..\User\stm32f4xx_it.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\stm32f4xx_it.o --omf_browse ..\..\output\stm32f4xx_it.crf --depend ..\..\output\stm32f4xx_it.d)
 I (..\..\User\stm32f4xx_it.h)(0x635F8BA6)
 I (..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x635F8BA6)
@@ -1679,7 +1680,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\FreeRTOS.h)(0x635F8BA6)
 I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -1692,7 +1693,7 @@ I (..\..\FreeRTOS\include\mpu_wrappers.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\task.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\list.h)(0x635F8BA6)
 F (..\..\User\FreeRTOSConfig.h)(0x635F8BA6)()
-F (..\..\User\RFID_task.c)(0x65BF8B1F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\rfid_task.o --omf_browse ..\..\output\rfid_task.crf --depend ..\..\output\rfid_task.d)
+F (..\..\User\RFID_task.c)(0x65BF8E55)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\rfid_task.o --omf_browse ..\..\output\rfid_task.crf --depend ..\..\output\rfid_task.d)
 I (..\..\User\RFID_task.h)(0x65BEFC36)
 I (..\..\User\./MFRC/bsp_MFRC.h)(0x65BF6CE5)
 I (..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x635F8BA6)
@@ -1737,7 +1738,7 @@ I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\FreeRTOS.h)(0x635F8BA6)
 I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
 I (..\..\User\FreeRTOSConfig.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\deprecated_definitions.h)(0x635F8BA6)
@@ -1818,7 +1819,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\deprecated_definitions.h)(0x635F8BA6)
@@ -1829,9 +1830,9 @@ I (..\..\FreeRTOS\include\list.h)(0x635F8BA6)
 I (..\..\User\RFID_task.h)(0x65BEFC36)
 I (..\..\User\./MFRC/bsp_MFRC.h)(0x65BF6CE5)
 I (..\..\User\./MFRC/RC522.h)(0x65B5D7CF)
-I (..\..\User\main.h)(0x65BF5255)
+I (..\..\User\main.h)(0x65C0ABEA)
 I (..\..\FreeRTOS\include\semphr.h)(0x635F8BA6)
-I (..\..\FreeRTOS\include\queue.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\queue.h)(0x65C09C9F)
 I (..\..\User\./led/bsp_led.h)(0x635F8BA6)
 I (..\..\User\./beep/bsp_beep.h)(0x635F8BA6)
 I (..\..\User\./TouchPad/bsp_touchpad.h)(0x635F8BA6)
@@ -1863,11 +1864,119 @@ I (..\..\STemWin\inc\SLIDER.h)(0x635F8BA6)
 I (..\..\STemWin\inc\SPINBOX.h)(0x635F8BA6)
 I (..\..\STemWin\inc\SWIPELIST.h)(0x635F8BA6)
 I (..\..\STemWin\inc\KNOB.h)(0x635F8BA6)
-I (..\..\STemWin_Task\MainTask.h)(0x635F8BA6)
 I (..\..\FATFS\ff.h)(0x635F8BA6)
 I (..\..\FATFS\integer.h)(0x635F8BA6)
 I (..\..\FATFS\ffconf.h)(0x635F8BA6)
 I (..\..\FATFS\diskio.h)(0x635F8BA6)
+I (..\..\User\com_jetson.h)(0x65C22607)
+I (..\..\User\info_process.h)(0x65C0ABFA)
+F (..\..\User\com_jetson.c)(0x65C228A9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\com_jetson.o --omf_browse ..\..\output\com_jetson.crf --depend ..\..\output\com_jetson.d)
+I (..\..\User\com_jetson.h)(0x65C22607)
+I (..\..\FreeRTOS\include\FreeRTOS.h)(0x635F8BA6)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\..\User\FreeRTOSConfig.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Include\core_cmSimd.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x635F8BA6)
+I (..\..\User\stm32f4xx_conf.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\deprecated_definitions.h)(0x635F8BA6)
+I (..\..\FreeRTOS\port\RVDS\ARM_CM4F\portmacro.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\mpu_wrappers.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\task.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\list.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\queue.h)(0x65C09C9F)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\..\User\info_process.c)(0x65C222BD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\info_process.o --omf_browse ..\..\output\info_process.crf --depend ..\..\output\info_process.d)
+I (..\..\User\info_process.h)(0x65C0ABFA)
+I (..\..\User\com_jetson.h)(0x65C22607)
+I (..\..\FreeRTOS\include\FreeRTOS.h)(0x635F8BA6)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\..\User\FreeRTOSConfig.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Include\core_cmSimd.h)(0x635F8BA6)
+I (..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x635F8BA6)
+I (..\..\User\stm32f4xx_conf.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
+I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\deprecated_definitions.h)(0x635F8BA6)
+I (..\..\FreeRTOS\port\RVDS\ARM_CM4F\portmacro.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\mpu_wrappers.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\task.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\list.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\queue.h)(0x65C09C9F)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
 F (..\..\User\led\bsp_led.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\bsp_led.o --omf_browse ..\..\output\bsp_led.crf --depend ..\..\output\bsp_led.d)
 I (..\..\User\./led/bsp_led.h)(0x635F8BA6)
 I (..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x635F8BA6)
@@ -1907,8 +2016,8 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-F (..\..\User\usart\bsp_debug_usart.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\bsp_debug_usart.o --omf_browse ..\..\output\bsp_debug_usart.crf --depend ..\..\output\bsp_debug_usart.d)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+F (..\..\User\usart\bsp_debug_usart.c)(0x65C0B2CE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\bsp_debug_usart.o --omf_browse ..\..\output\bsp_debug_usart.crf --depend ..\..\output\bsp_debug_usart.d)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x635F8BA6)
 I (..\..\Libraries\CMSIS\Include\core_cm4.h)(0x635F8BA6)
 I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2064,7 +2173,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 F (..\..\User\touch\bsp_i2c_touch.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\bsp_i2c_touch.o --omf_browse ..\..\output\bsp_i2c_touch.crf --depend ..\..\output\bsp_i2c_touch.d)
 I (..\..\User\./touch/bsp_i2c_touch.h)(0x635F8BA6)
@@ -2106,7 +2215,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
 I (..\..\User\./touch/gt9xx.h)(0x65BEFA7C)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 F (..\..\User\touch\gt9xx.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\gt9xx.o --omf_browse ..\..\output\gt9xx.crf --depend ..\..\output\gt9xx.d)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
@@ -2201,7 +2310,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2331,7 +2440,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2383,7 +2492,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2436,7 +2545,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2487,7 +2596,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2496,7 +2605,7 @@ I (..\..\FreeRTOS\port\RVDS\ARM_CM4F\portmacro.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\mpu_wrappers.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\task.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\list.h)(0x635F8BA6)
-I (..\..\FreeRTOS\include\queue.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\queue.h)(0x65C09C9F)
 F (..\..\FreeRTOS\src\tasks.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\tasks.o --omf_browse ..\..\output\tasks.crf --depend ..\..\output\tasks.d)
 I (C:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
 I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
@@ -2540,7 +2649,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2593,7 +2702,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2602,7 +2711,7 @@ I (..\..\FreeRTOS\port\RVDS\ARM_CM4F\portmacro.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\mpu_wrappers.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\task.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\list.h)(0x635F8BA6)
-I (..\..\FreeRTOS\include\queue.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\queue.h)(0x65C09C9F)
 I (..\..\FreeRTOS\include\timers.h)(0x635F8BA6)
 F (..\..\FreeRTOS\port\MemMang\heap_4.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\heap_4.o --omf_browse ..\..\output\heap_4.crf --depend ..\..\output\heap_4.d)
 I (C:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
@@ -2646,7 +2755,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2696,7 +2805,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2767,7 +2876,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
 I (..\..\User\./lcd/bsp_lcd.h)(0x65BF2669)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 F (..\..\STemWin\OS\GUI_X_FreeRTOS.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\gui_x_freertos.o --omf_browse ..\..\output\gui_x_freertos.crf --depend ..\..\output\gui_x_freertos.d)
 I (..\..\STemWin\inc\GUI.h)(0x635F8BA6)
@@ -2817,7 +2926,7 @@ I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h)(0x635F8BA6)
 I (..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h)(0x635F8BA6)
-I (..\..\User\./usart/bsp_debug_usart.h)(0x635F8BA6)
+I (..\..\User\./usart/bsp_debug_usart.h)(0x65C09A0B)
 I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\FreeRTOS\include\projdefs.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\portable.h)(0x635F8BA6)
@@ -2827,7 +2936,7 @@ I (..\..\FreeRTOS\include\mpu_wrappers.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\task.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\list.h)(0x635F8BA6)
 I (..\..\FreeRTOS\include\semphr.h)(0x635F8BA6)
-I (..\..\FreeRTOS\include\queue.h)(0x635F8BA6)
+I (..\..\FreeRTOS\include\queue.h)(0x65C09C9F)
 F (..\..\STemWin\Lib\STemWin_CM4_OS_wc16_ot_ARGB.a)(0x635F8BA6)()
 F (..\..\STemWin_Task\MainTask.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\FreeRTOS\include -I ..\..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\..\STemWin\Config -I ..\..\STemWin\inc -I ..\..\STemWin\Application -I ..\..\STemWin_Task -I ..\..\FATFS-IC:\Users\10746\Desktop\embedded\my_PROJ\project_master_f429\embed_project\Project\RVMDK£¨uv5£©\RTE-IC:\MDK5.36\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx -DOS_SUPPORT-o ..\..\output\maintask.o --omf_browse ..\..\output\maintask.crf --depend ..\..\output\maintask.d)
 I (..\..\STemWin_Task\MainTask.h)(0x635F8BA6)
@@ -2933,4 +3042,3 @@ F (..\..\FATFS\option\ccsbcs.c)(0x635F8BA6)(--c99 -c --cpu Cortex-M4.fp -D__MICR
 I (..\..\FATFS\option\../ff.h)(0x635F8BA6)
 I (..\..\FATFS\option\../integer.h)(0x635F8BA6)
 I (..\..\FATFS\option\../ffconf.h)(0x635F8BA6)
-F (..\..\±Ø¶ÁËµÃ÷.txt)(0x00000000)()
