@@ -1,0 +1,14 @@
+..\..\output\netifapi.o: ..\..\lwip-2.1.2\api\netifapi.c
+..\..\output\netifapi.o: ..\..\lwip-2.1.2\include\lwip/opt.h
+..\..\output\netifapi.o: ..\..\User\arch\lwipopts.h
+..\..\output\netifapi.o: ..\..\lwip-2.1.2\include\lwip/debug.h
+..\..\output\netifapi.o: ..\..\lwip-2.1.2\include\lwip/arch.h
+..\..\output\netifapi.o: ..\..\User\arch/cc.h
+..\..\output\netifapi.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\netifapi.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\netifapi.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\netifapi.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\netifapi.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\netifapi.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\limits.h
+..\..\output\netifapi.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\netifapi.o: ..\..\lwip-2.1.2\include\lwip/opt.h

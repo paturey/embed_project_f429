@@ -1,6 +1,8 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "semphr.h"
+#include "queue.h"
+#include "list.h"
 
 #include "./led/bsp_led.h" 
 #include "./beep/bsp_beep.h" 
@@ -23,5 +25,8 @@
 #include "com_jetson.h"
 #include "info_process.h"
 
+#include "LAN8742A.h"
+#include "netconf.h"
 
 #define    _key      "1234567890"
+#define    RMII_MODE

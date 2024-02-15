@@ -30,10 +30,18 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_it.h"
 #include "./usart/bsp_debug_usart.h"
+#include "stm32f429_eth.h"
 
 //FreeRTOS 使用
 #include "FreeRTOS.h"
 #include "task.h"
+#include "task.h"
+#include "semphr.h"
+#include "queue.h"
+
+
+extern xSemaphoreHandle s_xSemaphore;
+
 
 /** @addtogroup STM32F429I_DISCOVERY_Examples
   * @{
@@ -193,4 +201,28 @@ void DMA2D_IRQHandler(void)
 	/* 退出临界段 */
 	taskEXIT_CRITICAL_FROM_ISR(ulReturn);
 }
+
+void ETH_IRQHandler(void)
+{
+  portBASE_TYPE xHigherPriorityTaskWoken = pdFALSE;
+
+  /* Frame received */
+  if ( ETH_GetDMAFlagStatus(ETH_DMA_FLAG_R) == SET) 
+  {
+    /* Give the semaphore to wakeup LwIP task */
+    xSemaphoreGiveFromISR( s_xSemaphore, &xHigherPriorityTaskWoken );
+  }
+
+  /* Clear the interrupt flags. */
+  /* Clear the Eth DMA Rx IT pending bits */
+  ETH_DMAClearITPendingBit(ETH_DMA_IT_R);
+  ETH_DMAClearITPendingBit(ETH_DMA_IT_NIS);
+
+  /* Switch tasks if necessary. */	
+  if( xHigherPriorityTaskWoken != pdFALSE )
+  {
+    portEND_SWITCHING_ISR( xHigherPriorityTaskWoken );
+  }
+}
+
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

@@ -1,0 +1,15 @@
+..\..\output\netdb.o: ..\..\lwip-2.1.2\api\netdb.c
+..\..\output\netdb.o: ..\..\lwip-2.1.2\include\lwip/netdb.h
+..\..\output\netdb.o: ..\..\lwip-2.1.2\include\lwip/opt.h
+..\..\output\netdb.o: ..\..\User\arch\lwipopts.h
+..\..\output\netdb.o: ..\..\lwip-2.1.2\include\lwip/debug.h
+..\..\output\netdb.o: ..\..\lwip-2.1.2\include\lwip/arch.h
+..\..\output\netdb.o: ..\..\User\arch/cc.h
+..\..\output\netdb.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\netdb.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\netdb.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\netdb.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\netdb.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\netdb.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\limits.h
+..\..\output\netdb.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\netdb.o: ..\..\lwip-2.1.2\include\lwip/opt.h

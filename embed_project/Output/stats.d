@@ -1,0 +1,14 @@
+..\..\output\stats.o: ..\..\lwip-2.1.2\core\stats.c
+..\..\output\stats.o: ..\..\lwip-2.1.2\include\lwip/opt.h
+..\..\output\stats.o: ..\..\User\arch\lwipopts.h
+..\..\output\stats.o: ..\..\lwip-2.1.2\include\lwip/debug.h
+..\..\output\stats.o: ..\..\lwip-2.1.2\include\lwip/arch.h
+..\..\output\stats.o: ..\..\User\arch/cc.h
+..\..\output\stats.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\stats.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\stats.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\stats.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\stats.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\stats.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\limits.h
+..\..\output\stats.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\stats.o: ..\..\lwip-2.1.2\include\lwip/opt.h

@@ -1,0 +1,14 @@
+..\..\output\if_api.o: ..\..\lwip-2.1.2\api\if_api.c
+..\..\output\if_api.o: ..\..\lwip-2.1.2\include\lwip/opt.h
+..\..\output\if_api.o: ..\..\User\arch\lwipopts.h
+..\..\output\if_api.o: ..\..\lwip-2.1.2\include\lwip/debug.h
+..\..\output\if_api.o: ..\..\lwip-2.1.2\include\lwip/arch.h
+..\..\output\if_api.o: ..\..\User\arch/cc.h
+..\..\output\if_api.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\if_api.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\if_api.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\if_api.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\if_api.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\if_api.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\limits.h
+..\..\output\if_api.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\if_api.o: ..\..\lwip-2.1.2\include\lwip/opt.h

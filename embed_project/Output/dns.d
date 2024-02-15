@@ -1,0 +1,14 @@
+..\..\output\dns.o: ..\..\lwip-2.1.2\core\dns.c
+..\..\output\dns.o: ..\..\lwip-2.1.2\include\lwip/opt.h
+..\..\output\dns.o: ..\..\User\arch\lwipopts.h
+..\..\output\dns.o: ..\..\lwip-2.1.2\include\lwip/debug.h
+..\..\output\dns.o: ..\..\lwip-2.1.2\include\lwip/arch.h
+..\..\output\dns.o: ..\..\User\arch/cc.h
+..\..\output\dns.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\dns.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\dns.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\dns.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\dns.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\dns.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\limits.h
+..\..\output\dns.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\dns.o: ..\..\lwip-2.1.2\include\lwip/opt.h

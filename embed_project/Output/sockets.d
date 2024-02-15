@@ -1,0 +1,14 @@
+..\..\output\sockets.o: ..\..\lwip-2.1.2\api\sockets.c
+..\..\output\sockets.o: ..\..\lwip-2.1.2\include\lwip/opt.h
+..\..\output\sockets.o: ..\..\User\arch\lwipopts.h
+..\..\output\sockets.o: ..\..\lwip-2.1.2\include\lwip/debug.h
+..\..\output\sockets.o: ..\..\lwip-2.1.2\include\lwip/arch.h
+..\..\output\sockets.o: ..\..\User\arch/cc.h
+..\..\output\sockets.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\sockets.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\sockets.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\sockets.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\sockets.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\sockets.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\limits.h
+..\..\output\sockets.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\sockets.o: ..\..\lwip-2.1.2\include\lwip/opt.h

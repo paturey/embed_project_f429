@@ -1,0 +1,17 @@
+..\..\output\sys.o: ..\..\lwip-2.1.2\core\sys.c
+..\..\output\sys.o: ..\..\lwip-2.1.2\include\lwip/opt.h
+..\..\output\sys.o: ..\..\User\arch\lwipopts.h
+..\..\output\sys.o: ..\..\lwip-2.1.2\include\lwip/debug.h
+..\..\output\sys.o: ..\..\lwip-2.1.2\include\lwip/arch.h
+..\..\output\sys.o: ..\..\User\arch/cc.h
+..\..\output\sys.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\sys.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\sys.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\sys.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\sys.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\sys.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\limits.h
+..\..\output\sys.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\sys.o: ..\..\lwip-2.1.2\include\lwip/opt.h
+..\..\output\sys.o: ..\..\lwip-2.1.2\include\lwip/sys.h
+..\..\output\sys.o: ..\..\lwip-2.1.2\include\lwip/err.h
+..\..\output\sys.o: ..\..\User\arch/sys_arch.h

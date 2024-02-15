@@ -40,6 +40,8 @@
 ..\..\output\stm32f4xx_it.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
 ..\..\output\stm32f4xx_it.o: ..\..\User\./usart/bsp_debug_usart.h
 ..\..\output\stm32f4xx_it.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\stm32f4xx_it.o: ..\..\Libraries\STM32F429_ETH_Driver\inc\stm32f429_eth.h
+..\..\output\stm32f4xx_it.o: ..\..\Libraries\STM32F429_ETH_Driver\inc\stm32f429_eth_conf.h
 ..\..\output\stm32f4xx_it.o: ..\..\FreeRTOS\include\FreeRTOS.h
 ..\..\output\stm32f4xx_it.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\output\stm32f4xx_it.o: ..\..\User\FreeRTOSConfig.h
@@ -50,3 +52,5 @@
 ..\..\output\stm32f4xx_it.o: ..\..\FreeRTOS\include\mpu_wrappers.h
 ..\..\output\stm32f4xx_it.o: ..\..\FreeRTOS\include\task.h
 ..\..\output\stm32f4xx_it.o: ..\..\FreeRTOS\include\list.h
+..\..\output\stm32f4xx_it.o: ..\..\FreeRTOS\include\semphr.h
+..\..\output\stm32f4xx_it.o: ..\..\FreeRTOS\include\queue.h
